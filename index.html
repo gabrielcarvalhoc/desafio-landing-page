@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Black Friday</title>
+</head>
+<body>
+    <header>
+        <h1>Gama Soccer Store</h1>
+    </header>
+    <main class="container">
+        <section class="bf-text">
+            <h2>É apaixonado por futebol? Não perca nossa Black Friday!</h2>
+            <p>Que tal comprar a camisa nova do seu time de coração ou qualquer outro artigo esportivo? <strong>Cadastre-se em nossa Black Friday</strong> e receba promoções exclusivas diretamente no seu telefone e email.</p>
+            <img src="img/black-friday.png" alt="Black Friday">
+        </section>
+        <section class="bf-form">
+            <form action="#" method="POST" id="formulario">
+                <h3>Preencha seus dados</h3>
+
+                <label for="nome" class="label">Nome*</label>
+                <input type="text" name="nome" id="nome" class="input" placeholder="Nome Completo" required>
+
+                <label for="email" class="label">Email*</label>
+                <input type="email" name="email" id="email" class="input" placeholder="seunome@email.com" required>
+
+                <label for="telefone" class="label">Telefone*</label>
+                <input type="tel" name="telefone" id="telefone" class="input" placeholder="(DD) 99999-9999" required>
+
+                <input type="submit" value="Receber Promoções" id="button">
+            </form>
+            <div class="msg-cadastro">
+                <p>Cadastro realizado com sucesso!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
